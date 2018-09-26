@@ -1,0 +1,38 @@
+page,Node,jcr:content,cq:PageContent
+page,Property,sling:resourceType, weretail/components/structure/page
+page,Property,cq:template, /conf/we-retail/settings/wcm/templates/hero-page
+page,Property,jcr:title,company
+page,Property,jcr:description,company
+rootParsys,Node,rootparsys,nt:unstructured
+rootParsys,Property,sling:resourceType,wcm/foundation/components/responsivegrid
+image,Node,hero_image,nt:unstructured
+image,Property,sling:resourceType,weretail/components/content/heroimage
+image,Property,useFullWidth,TRUE
+image,Property,fileReference,/content/dam/we-retail/en/activities/biking/forest-trail.jpg
+title,Property,title,nt:unstructured
+responsiveGrid,Node,jcr:primaryType,nt:unstructured
+responsiveGrid,property,sling:resourceType,wcm/foundation/components/responsivegrid
+titleResposivegrid,Node,jcr:primaryType,nt:unstructured
+titleResposivegrid,Property,sling:resourceType,weretail/components/content/title
+titleResposivegrid,Property,jcr:title,Welcome our most wanted equipment
+titleResposivegrid,Property,type,h2
+category_teaser,Node,jcr:primaryType,nt:unstructured
+category_teaser,Property,sling:resourceType,weretail/components/content/categoryteaser
+category_teaser,Property,fileReference,/content/dam/we-retail/en/activities/running/running-trail-man.jpg
+category_teaser,Property,buttonLinkTo,/content/we-retail/us/en/products/equipment/hiking
+category_teaser1,Node,jcr:primaryType,nt:unstructured
+category_teaser1,Property,sling:resourceType,weretail/components/content/categoryteaser
+category_teaser1,Property,fileReference,/content/dam/we-retail/en/activities/hiking-camping/hiker-anapurna.jpg
+category_teaser1,Property,buttonLinkTo,/content/we-retail/us/en/products/equipment/running
+category_teaser2,Node,jcr:primaryType,nt:unstructured
+category_teaser2,Property,sling:resourceType,weretail/components/content/categoryteaser
+category_teaser2,Property,fileReference,/content/dam/we-retail/en/activities/biking/enduro-trail-jump.jpg
+category_teaser2,Property,buttonLinkTo,/content/we-retail/us/en/products/equipment/biking
+category_teaser3,Node,jcr:primaryType,nt:unstructured
+category_teaser3,Property,sling:resourceType,weretail/components/content/categoryteaser
+category_teaser3,Property,fileReference,/content/dam/we-retail/en/activities/skiing/freeride-steep.jpg
+category_teaser3,Property,buttonLinkTo,/content/we-retail/us/en/products/equipment/snow-sports
+text,Node,jcr:primaryType,nt:unstructured
+text,Property,sling:resourceType,weretail/components/content/text
+text,Property,text,<p>Test text Lorem ipsum dolor sit amet; consectetur adipiscing elit. Etiam iaculis ac tortor sed eleifend. Nunc sed eros id est dapibus pretium ut in nulla. Nam pellentesque finibus ligula; at tincidunt mauris cursus ut. Aenean scelerisque quam quis pretium efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra; per inceptos himenaeos. Curabitur sed mauris nec lectus posuere porta ut gravida ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Vestibulum sagittis tortor ut massa pulvinar; non viverra lacus dapibus. Duis interdum massa eleifend; bibendum neque vitae; molestie ipsum. Cras porta ultrices volutpat text;</P>                         
+text,Property,textIsRich,true
